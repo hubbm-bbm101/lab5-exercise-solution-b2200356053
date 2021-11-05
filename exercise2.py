@@ -1,5 +1,5 @@
 e_mail = input("e posta: ")
-if ("@" and ".") in e_mail:
+if "@" in e_mail and "." in e_mail:
     print("Valid E mail")
 else:
     print("Invalid email")
